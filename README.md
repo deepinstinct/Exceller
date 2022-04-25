@@ -9,7 +9,7 @@ Use Python to run 'exceller.py' and provide it with the following parameters:
 
 
 ## Extracting VBA Code from Office Files
-As I mentioned above, you can use oledump to extract VBA from Office files.
+As mentioned above, you can use oledump to extract VBA from Office files.
 Example: `python oledump.py -v -sa my_office_file> my_vba_output`
 
 Link to Didider Stevens' oledump: https://github.com/DidierStevens/DidierStevensSuite/blob/master/oledump.py
