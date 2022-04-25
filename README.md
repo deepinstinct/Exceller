@@ -4,7 +4,7 @@ Replaces VBA cells function calls with their content, to make the VBA code less 
 ## Using Exceller
 Use Python to run 'exceller.py' and provide it with the following parameters:
 * vba_file: a text file containing VBA code. You can use oledump to extract VBA code from Office files.
-* excel_file: a path to the Excel file from which the VBA code was extracted. **Note:** currently, Exceller only supports OOXML Excel files. OLE support will be added at a later stage.
+* excel_file: a path to the Excel file from which the VBA code was extracted. **Note: currently, Exceller only supports OOXML Excel files. OLE support will be added at a later stage. **
 * edited_vba_file: the path in which you want to save Exceller's output, which will be a text file containig a less obfuscated version of 'vba_file'
 
 
